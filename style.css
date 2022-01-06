@@ -104,9 +104,20 @@ h1 {
   background-origin: content-box;
 }
 
+.community {
+  margin-right: 20px;
+  height: 530px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 227px 227px;
+  background-position: bottom 0px right 10px;
+  background-origin: content-box;
+}
+
 .fexlible-container2 {
   display: flex;
   margin: 100px;
+  height: auto;
 }
 .img-width {
   width: 40%;
@@ -127,6 +138,52 @@ h1 {
   line-height: 54px;
 }
 
+/* contac me section */
+.contact_me {
+  margin: 100px;
+}
+
+.contact_me a {
+  margin: auto;
+}
+.contact-me_heading {
+  font-size: 36px;
+  text-align: center;
+}
+.no-name {
+  background-color: #ff595942;
+  padding: 50px;
+  width: 800px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.no-name a {
+  margin-left: 40%;
+  margin-top: 40px;
+}
+.form {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+}
+
+input,
+textarea {
+  width: 250px;
+  margin: 10px 0;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 400px;
+}
 footer {
   background-color: rgba(11, 13, 23, 1);
   color: gray;
