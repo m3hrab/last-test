@@ -194,5 +194,9 @@ footer {
 
 footer h2 {
   color: white;
-  font-family: sans-serif;
+  font-family: "Yeseva One", cursive;
+}
+
+.year {
+  color: #ff5959;
 }
